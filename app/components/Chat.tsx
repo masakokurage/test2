@@ -71,7 +71,7 @@ const Chat = ({ content, role }: Message) => {
               as="small"
               fontWeight={500}
             >
-              ロリス
+              うずまきナルト
             </Flex>
           )}
           {role === "user" && (
@@ -83,7 +83,7 @@ const Chat = ({ content, role }: Message) => {
               as="small"
               fontWeight={500}
             >
-              あなた
+              はたけカカシ
             </Flex>
           )}
           {role === "assistant" ? chatMessage || "" : content || ""}
